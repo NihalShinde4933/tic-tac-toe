@@ -18,7 +18,7 @@ Welcome to the ultimate Tic-Tac-Toe game experience! This game is built using HT
    
    • Clone the repository:
    ```
-   https://github.com/Cytherrr/tic-tac-toe.git
+   https://github.com/NihalShinde4933/tic-tac-toe.git
    ```
    • Open `index.html` in your preferred web browser.
 
