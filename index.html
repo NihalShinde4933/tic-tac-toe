@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            TicTacToe.in
+        </div>
+        <div class="github">
+            <a href="https://github.com/Cytherrr">@Cytherrr</a>
+        </div>
+    </nav>
+
+    <!-- Gamingcontainer -->
+    <div class="mainContainer">
+        <!-- Game Board -->
+        <div class="left-col">
+            <div class="gridBox">
+                <div class="box bl-0 bt-0">
+                    <span class="boxInsideText">
+                        
+                    </span>
+                </div>
+                <div class="box bt-0">
+                    <span class="boxInsideText">
+                        
+                    </span>
+                </div>
+                <div class="box br-0 bt-0">
+                    <span class="boxInsideText">
+                        
+                    </span>
+                </div>
+                <div class="box bl-0">
+                    <span class="boxInsideText">
+                        
+                    </span>
+                </div>
+                <div class="box">
+                    <span class="boxInsideText">
+                        
+                    </span>
+                </div>
+                <div class="box br-0">
+                    <span class="boxInsideText">
+                        
+                    </span>
+                </div>
+                <div class="box bl-0 bb-0">
+                    <span class="boxInsideText">
+                        
+                    </span>
+                </div>
+                <div class="box bb-0">
+                    <span class="boxInsideText">
+                        
+                    </span>
+                </div>
+                <div class="box br-0 bb-0">
+                    <span class="boxInsideText">
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- Game Details -->
+        <div class="right-col">
+            <div class="center">
+                <h2 class="welcomeTxt">Welcome To TicTacToe.in</h2>
+                <div class="matchesCount">
+                    Match Number: <span id="matchNum"></span>
+                </div>
+                <div class="table-box">
+                    <div class="table">
+                        <table class="pointsTable">
+                            <caption>Player Status Till Now:</caption>
+                            <tr>
+                                <th>Player</th>
+                                <th>Matches Won</th>
+                                <th>Final Winner</th>
+                            </tr>
+                            <tr>
+                                <td>Player X</td>
+                                <td id="matchWonCountX"></td>
+                                <td class="resultX"></td>
+                            </tr>
+                            <tr>
+                                <td>Player O</td>
+                                <td id="matchWonCount0"></td>
+                                <td class="result0"></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="turn">
+                    Your Turn: <span id="player">X</span>
+                </div>
+                <div class="imgBox">
+                    <img src="excited.gif" alt="" class="cheerEmoji">
+                    <div class="winnerAnnouncement">
+                        Winner is: <div class="winner">X</div>
+                    </div>
+                </div>
+                <button class="reset">Reset Board</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
